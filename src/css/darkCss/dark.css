@@ -1,0 +1,87 @@
+:root {
+  --darkNavyBlue: rgb(77, 106, 104);
+  --darkMainText: rgb(234, 214, 189);
+  --spanText: #f8a034;
+}
+
+.dark {
+  background-color: rgb(0, 0, 14);
+}
+/*Header Section*/
+
+.dark .header-title h3,
+.dark h4,
+.dark .header-links a {
+  color: var(--darkMainText);
+}
+.dark .header-links a::after {
+  background-color: var(--spanText);
+}
+/*End Header Section*/
+
+/*Burger Section*/
+.dark .burger-links a {
+  color: aliceblue;
+}
+/*End Burger Section*/
+
+/*Home Section*/
+.dark .hea4 {
+  color: var(--darkNavyBlue);
+  font-weight: 700;
+}
+.dark .hea1 {
+  color: var(--darkMainText);
+}
+.dark span {
+  color: var(--spanText);
+  font-weight: 700;
+  font-size: 9rem;
+}
+.dark .hea2 {
+  color: var(--darkNavyBlue);
+  font-weight: 700;
+}
+/*End Home Section*/
+
+/*About Section*/
+
+.dark .about-bottom p,
+.dark .about-bottom h4,
+.dark .skill-title {
+  color: var(--darkMainText);
+}
+/*End About Section*/
+
+/*Contact Section*/
+.dark .top-contact h1 {
+  color: var(--spanText);
+}
+
+.dark .bot-contact p {
+  color: var(--darkMainText);
+}
+.dark .bot-contact .send,
+.dark .bot-contact h3 {
+  color: var(--darkNavyBlue);
+}
+/*End Contact Section*/
+
+/*Light section*/
+.light {
+  background-color: aliceblue;
+}
+.light span {
+  color: #f8a034;
+  font-weight: 700;
+  font-size: 9rem;
+}
+/*Footer section*/
+.dark .inner-mild-footer h3 {
+  color: rgb(168, 167, 165);
+}
+/*End Footer section*/
+.light .hea4 {
+  font-weight: 700;
+}
+/*End Light section*/

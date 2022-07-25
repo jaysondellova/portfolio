@@ -1,0 +1,143 @@
+.contact {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.outer-contact {
+  width: 80%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.inner-contact {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.top-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-shadow: 1px 1px 1px rgb(94, 94, 94), 1px 2px 1px rgb(94, 94, 94),
+    1px 3px 1px rgb(94, 94, 94), 1px 4px 1px rgb(94, 94, 94),
+    1px 5px 1px rgb(94, 94, 94);
+}
+.top-contact h1 {
+  font-weight: 700;
+  font-size: 100px;
+  color: var(--spanText);
+}
+.bot-contact {
+  line-height: 50px;
+}
+.bot-contact h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(29, 29, 29);
+}
+.send {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(29, 29, 29);
+}
+.gmail {
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+}
+/* mild footer */
+.mild-footer {
+  height: 30vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-mild-footer {
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.footer-icon-container {
+  display: flex;
+  height: 100%;
+}
+.footer-icon {
+  width: 50px;
+  height: 10%;
+  padding: 0 10px 0 10px;
+  filter: grayscale(1);
+  padding-bottom: 5px;
+}
+.footer-icon:hover {
+  filter: grayscale(0);
+}
+.inner-mild-footer ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inner-mild-footer ul h3 {
+  color: rgb(70, 69, 69);
+  font-style: italic;
+}
+/*End mild footer */
+
+@media (max-width: 720px) {
+  .top-contact h1 {
+    font-size: 70px;
+  }
+  .bot-contact h3 {
+    font-size: 18px;
+  }
+  .send {
+    font-size: 18px;
+  }
+  .gmail {
+    font-size: 30px;
+    font-weight: 900;
+  }
+}
+@media (max-width: 450px) {
+  .contact {
+    height: 70vh;
+  }
+  .top-contact h1 {
+    font-size: 50px;
+  }
+  .bot-contact h3 {
+    font-size: 12px;
+  }
+  .send {
+    font-size: 12px;
+  }
+  .gmail {
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .outer-contact {
+    height: 50vh;
+  }
+  .inner-contact {
+    height: 200px;
+  }
+  .bot-contact {
+    line-height: 30px;
+  }
+  .mild-footer {
+    height: 20vh;
+  }
+}

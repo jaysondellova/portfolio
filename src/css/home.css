@@ -1,0 +1,52 @@
+.home {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 70vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home h4 {
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(70, 69, 69);
+  font-weight: 500;
+}
+.home h1 {
+  font-weight: 700;
+  font-size: 9rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(19, 17, 17);
+  text-shadow: 1px 1px 1px rgb(94, 94, 94), 1px 2px 1px rgb(94, 94, 94),
+    1px 3px 1px rgb(94, 94, 94), 1px 4px 1px rgb(94, 94, 94),
+    1px 5px 1px rgb(94, 94, 94);
+}
+.home h2 {
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(34, 34, 34);
+  font-weight: 500;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.menu-icon img {
+  z-index: 10;
+}
+@media (max-width: 720px) {
+  .menu-icon {
+    display: block;
+  }
+  .home h1 {
+    font-size: 7rem;
+  }
+  .home h2 {
+    font-size: 3rem;
+  }
+}
